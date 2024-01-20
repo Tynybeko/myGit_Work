@@ -8,5 +8,5 @@ jobs:
         run: echo Hello World
       - name: My Second Step
         run: |
-          echo First Operation
-          echo Second Operation
+          echo My First Echo
+          echo My Second Echo
