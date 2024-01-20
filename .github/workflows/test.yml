@@ -7,6 +7,6 @@ jobs:
       - name: My First Step
         run: echo Hello World
       - name: My Second Step
-        run: 
+        run: |
           echo First Operation
           echo Second Operation
