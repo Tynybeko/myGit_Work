@@ -1,5 +1,8 @@
 name: My Test Workflows
-on: workflow_dispatch
+on:
+  push:
+    branches:
+      - master 
 jobs:
   print:
     runs-on: ubuntu-latest
