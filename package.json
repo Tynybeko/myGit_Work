@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node math.test.js"
+    "test": "jest"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
