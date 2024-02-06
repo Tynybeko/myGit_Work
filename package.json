@@ -1,0 +1,11 @@
+{
+  "name": "mygit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node math.test.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
