@@ -18,12 +18,9 @@ jobs:
 
     - name: Run tests
       run: npm test
-  print:
-    runs-on: ubuntu-latest
-    steps:
-      - name: My First Step
-        run: echo Hello World
-      - name: My Second Step
-        run: |
+    - name: My First Step
+      run: echo Hello World
+    - name: My Second Step
+      run: |
           echo My First Echo
           echo My Second Echo
