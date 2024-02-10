@@ -3,5 +3,6 @@ function add(a, b) {
     return a + b;
 }
 
-module.exports = { add };
 
+let a = '12321'
+module.exports = { add };
